@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="led_wifi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-Mj-dS1">
+                                <rect key="frame" x="91" y="106" width="30" height="30"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="offButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Nzv-ZQ-F9J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gep-6s-dTI">
+                                <rect key="frame" x="91" y="147" width="30" height="30"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="redButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R3T-wq-4P2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xz-MT-eZV">
+                                <rect key="frame" x="91" y="185" width="31" height="30"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XTP-aV-hrz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TN0-le-5vj">
+                                <rect key="frame" x="91" y="223" width="45" height="30"/>
+                                <state key="normal" title="Purple">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="purpleButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QUm-A2-j7R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="5Xz-MT-eZV" secondAttribute="centerY" constant="100" id="5hw-4L-Ix7"/>
+                            <constraint firstItem="5Xz-MT-eZV" firstAttribute="centerX" secondItem="gep-6s-dTI" secondAttribute="centerX" constant="0.5" id="EIF-7e-hAb"/>
+                            <constraint firstItem="5Xz-MT-eZV" firstAttribute="centerX" secondItem="TN0-le-5vj" secondAttribute="centerX" constant="-7" id="EPz-eZ-SbP"/>
+                            <constraint firstItem="dIC-Mj-dS1" firstAttribute="centerX" secondItem="gep-6s-dTI" secondAttribute="centerX" id="Jfs-hT-4GE"/>
+                            <constraint firstItem="5Xz-MT-eZV" firstAttribute="top" secondItem="gep-6s-dTI" secondAttribute="bottom" constant="8" id="Ku8-v7-Fs8"/>
+                            <constraint firstItem="dIC-Mj-dS1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="86" id="PPS-cy-T5J"/>
+                            <constraint firstItem="dIC-Mj-dS1" firstAttribute="centerY" secondItem="5Xz-MT-eZV" secondAttribute="centerY" constant="-79" id="PbS-Jj-tdm"/>
+                            <constraint firstAttribute="centerY" secondItem="dIC-Mj-dS1" secondAttribute="centerY" constant="176" id="SDQ-Et-ZC4"/>
+                            <constraint firstAttribute="centerY" secondItem="TN0-le-5vj" secondAttribute="centerY" constant="62" id="aiC-AY-VAG"/>
+                            <constraint firstItem="gep-6s-dTI" firstAttribute="top" secondItem="dIC-Mj-dS1" secondAttribute="bottom" constant="11" id="cSe-7p-pKt"/>
+                            <constraint firstItem="dIC-Mj-dS1" firstAttribute="centerY" secondItem="gep-6s-dTI" secondAttribute="centerY" constant="-41" id="eE4-UX-bIg"/>
+                            <constraint firstAttribute="centerY" secondItem="gep-6s-dTI" secondAttribute="centerY" constant="138" id="g2D-3X-alJ"/>
+                            <constraint firstItem="TN0-le-5vj" firstAttribute="top" secondItem="5Xz-MT-eZV" secondAttribute="bottom" constant="8" id="jNq-Wd-aGI"/>
+                            <constraint firstItem="dIC-Mj-dS1" firstAttribute="centerY" secondItem="TN0-le-5vj" secondAttribute="centerY" constant="-117" id="kAw-LC-OGV"/>
+                            <constraint firstItem="dIC-Mj-dS1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="75" id="x6y-Pc-h85"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PbS-Jj-tdm"/>
+                                <exclude reference="SDQ-Et-ZC4"/>
+                                <exclude reference="eE4-UX-bIg"/>
+                                <exclude reference="kAw-LC-OGV"/>
+                                <exclude reference="g2D-3X-alJ"/>
+                                <exclude reference="5hw-4L-Ix7"/>
+                                <exclude reference="aiC-AY-VAG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

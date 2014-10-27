@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B1D86819FED48D0066FCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1D86719FED48D0066FCEC /* AppDelegate.swift */; };
+		94B1D86A19FED48D0066FCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1D86919FED48D0066FCEC /* ViewController.swift */; };
+		94B1D86D19FED48D0066FCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B1D86B19FED48D0066FCEC /* Main.storyboard */; };
+		94B1D86F19FED48D0066FCEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B1D86E19FED48D0066FCEC /* Images.xcassets */; };
+		94B1D87219FED48D0066FCEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B1D87019FED48D0066FCEC /* LaunchScreen.xib */; };
+		94B1D87E19FED48D0066FCEC /* led_wifiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1D87D19FED48D0066FCEC /* led_wifiTests.swift */; };
+		94B1D89419FED60A0066FCEC /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 94B1D88D19FED5480066FCEC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B1D87819FED48D0066FCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B1D85A19FED48D0066FCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B1D86119FED48D0066FCEC;
+			remoteInfo = "led-wifi";
+		};
+		94B1D88C19FED5480066FCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B1D88719FED5480066FCEC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		94B1D88E19FED5480066FCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B1D88719FED5480066FCEC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		94B1D89019FED5CC0066FCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B1D88719FED5480066FCEC /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94B1D89219FED5D60066FCEC /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94B1D89419FED60A0066FCEC /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		94B1D86219FED48D0066FCEC /* led-wifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "led-wifi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B1D86619FED48D0066FCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B1D86719FED48D0066FCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94B1D86919FED48D0066FCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94B1D86C19FED48D0066FCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B1D86E19FED48D0066FCEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94B1D87119FED48D0066FCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94B1D87719FED48D0066FCEC /* led-wifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "led-wifiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B1D87C19FED48D0066FCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B1D87D19FED48D0066FCEC /* led_wifiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = led_wifiTests.swift; sourceTree = "<group>"; };
+		94B1D88719FED5480066FCEC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B1D85F19FED48D0066FCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B1D87419FED48D0066FCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B1D85919FED48D0066FCEC = {
+			isa = PBXGroup;
+			children = (
+				94B1D88719FED5480066FCEC /* Alamofire.xcodeproj */,
+				94B1D86419FED48D0066FCEC /* led-wifi */,
+				94B1D87A19FED48D0066FCEC /* led-wifiTests */,
+				94B1D86319FED48D0066FCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B1D86319FED48D0066FCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B1D86219FED48D0066FCEC /* led-wifi.app */,
+				94B1D87719FED48D0066FCEC /* led-wifiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B1D86419FED48D0066FCEC /* led-wifi */ = {
+			isa = PBXGroup;
+			children = (
+				94B1D86719FED48D0066FCEC /* AppDelegate.swift */,
+				94B1D86919FED48D0066FCEC /* ViewController.swift */,
+				94B1D86B19FED48D0066FCEC /* Main.storyboard */,
+				94B1D86E19FED48D0066FCEC /* Images.xcassets */,
+				94B1D87019FED48D0066FCEC /* LaunchScreen.xib */,
+				94B1D86519FED48D0066FCEC /* Supporting Files */,
+			);
+			path = "led-wifi";
+			sourceTree = "<group>";
+		};
+		94B1D86519FED48D0066FCEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B1D86619FED48D0066FCEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B1D87A19FED48D0066FCEC /* led-wifiTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B1D87D19FED48D0066FCEC /* led_wifiTests.swift */,
+				94B1D87B19FED48D0066FCEC /* Supporting Files */,
+			);
+			path = "led-wifiTests";
+			sourceTree = "<group>";
+		};
+		94B1D87B19FED48D0066FCEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B1D87C19FED48D0066FCEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B1D88819FED5480066FCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B1D88D19FED5480066FCEC /* Alamofire.framework */,
+				94B1D88F19FED5480066FCEC /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B1D86119FED48D0066FCEC /* led-wifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B1D88119FED48D0066FCEC /* Build configuration list for PBXNativeTarget "led-wifi" */;
+			buildPhases = (
+				94B1D85E19FED48D0066FCEC /* Sources */,
+				94B1D85F19FED48D0066FCEC /* Frameworks */,
+				94B1D86019FED48D0066FCEC /* Resources */,
+				94B1D89219FED5D60066FCEC /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B1D89119FED5CC0066FCEC /* PBXTargetDependency */,
+			);
+			name = "led-wifi";
+			productName = "led-wifi";
+			productReference = 94B1D86219FED48D0066FCEC /* led-wifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B1D87619FED48D0066FCEC /* led-wifiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B1D88419FED48D0066FCEC /* Build configuration list for PBXNativeTarget "led-wifiTests" */;
+			buildPhases = (
+				94B1D87319FED48D0066FCEC /* Sources */,
+				94B1D87419FED48D0066FCEC /* Frameworks */,
+				94B1D87519FED48D0066FCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B1D87919FED48D0066FCEC /* PBXTargetDependency */,
+			);
+			name = "led-wifiTests";
+			productName = "led-wifiTests";
+			productReference = 94B1D87719FED48D0066FCEC /* led-wifiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B1D85A19FED48D0066FCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ryan Tuck";
+				TargetAttributes = {
+					94B1D86119FED48D0066FCEC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					94B1D87619FED48D0066FCEC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 94B1D86119FED48D0066FCEC;
+					};
+				};
+			};
+			buildConfigurationList = 94B1D85D19FED48D0066FCEC /* Build configuration list for PBXProject "led-wifi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B1D85919FED48D0066FCEC;
+			productRefGroup = 94B1D86319FED48D0066FCEC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 94B1D88819FED5480066FCEC /* Products */;
+					ProjectRef = 94B1D88719FED5480066FCEC /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				94B1D86119FED48D0066FCEC /* led-wifi */,
+				94B1D87619FED48D0066FCEC /* led-wifiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		94B1D88D19FED5480066FCEC /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 94B1D88C19FED5480066FCEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94B1D88F19FED5480066FCEC /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 94B1D88E19FED5480066FCEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B1D86019FED48D0066FCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B1D86D19FED48D0066FCEC /* Main.storyboard in Resources */,
+				94B1D87219FED48D0066FCEC /* LaunchScreen.xib in Resources */,
+				94B1D86F19FED48D0066FCEC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B1D87519FED48D0066FCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B1D85E19FED48D0066FCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B1D86A19FED48D0066FCEC /* ViewController.swift in Sources */,
+				94B1D86819FED48D0066FCEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B1D87319FED48D0066FCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B1D87E19FED48D0066FCEC /* led_wifiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B1D87919FED48D0066FCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B1D86119FED48D0066FCEC /* led-wifi */;
+			targetProxy = 94B1D87819FED48D0066FCEC /* PBXContainerItemProxy */;
+		};
+		94B1D89119FED5CC0066FCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 94B1D89019FED5CC0066FCEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B1D86B19FED48D0066FCEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B1D86C19FED48D0066FCEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94B1D87019FED48D0066FCEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B1D87119FED48D0066FCEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B1D87F19FED48D0066FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B1D88019FED48D0066FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B1D88219FED48D0066FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "led-wifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94B1D88319FED48D0066FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "led-wifi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94B1D88519FED48D0066FCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "led-wifiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led-wifi.app/led-wifi";
+			};
+			name = Debug;
+		};
+		94B1D88619FED48D0066FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "led-wifiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led-wifi.app/led-wifi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B1D85D19FED48D0066FCEC /* Build configuration list for PBXProject "led-wifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B1D87F19FED48D0066FCEC /* Debug */,
+				94B1D88019FED48D0066FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B1D88119FED48D0066FCEC /* Build configuration list for PBXNativeTarget "led-wifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B1D88219FED48D0066FCEC /* Debug */,
+				94B1D88319FED48D0066FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94B1D88419FED48D0066FCEC /* Build configuration list for PBXNativeTarget "led-wifiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B1D88519FED48D0066FCEC /* Debug */,
+				94B1D88619FED48D0066FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94B1D85A19FED48D0066FCEC /* Project object */;
+}
